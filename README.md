@@ -1,5 +1,7 @@
 # HELM DAILY DRILL — KodeKloud Helm Playground  
 
+Version: v0.1 (Stable|Current)
+
 ## Preface
 
 - Target time to finish (trained): ≤ 15 мин  
