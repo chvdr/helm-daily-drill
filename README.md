@@ -63,16 +63,20 @@ helm history web -n drill
 ### Expected result(s):
 
 - replicas = 2
-- има нова revision
+- a new revision exists
 
 ## 4) ROLLBACK
 
-`helm rollback web 1 -n drill` 
+```
+helm rollback web 1 -n drill
+``` 
 
 ### Test(s)/Check(s):
 
+```
 helm history web -n drill
 kubectl get deploy -n drill
+```
 
 ### Expected result(s):
 
