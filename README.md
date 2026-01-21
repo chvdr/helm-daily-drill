@@ -13,6 +13,7 @@ Version: v0.1 (Stable|Current)
 ## 0) RESET
 
 ```
+kubectl get ns
 kubectl delete ns drill --ignore-not-found
 kubectl create ns drill
 helm uninstall web -n drill 2>/dev/null || true
